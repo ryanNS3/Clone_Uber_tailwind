@@ -2,7 +2,11 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'fotoBanner' : "url(./assets/fotoBanner.png)",
+      }
+    },
   },
   plugins: [],
 }
