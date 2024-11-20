@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage:{
-        'fotoBanner' : "url(./assets/fotoBanner.png)",
+        'fotoBanner' : 'url(./assets/fotoBanner.png)',
+        'fotoCidade' : 'url(assets/fotoCidade.png)',
+        
       }
     },
   },
   plugins: [],
 }
+
