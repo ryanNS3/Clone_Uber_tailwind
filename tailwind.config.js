@@ -7,7 +7,11 @@ module.exports = {
         'fotoBanner' : 'url(./assets/fotoBanner.png)',
         'fotoCidade' : 'url(assets/fotoCidade.png)',
         
+      },
+      screens: {
+        'Notebook': '1100px',
       }
+
     },
   },
   plugins: [],
