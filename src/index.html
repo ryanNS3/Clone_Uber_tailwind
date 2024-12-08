@@ -33,7 +33,7 @@
         </ul>
     </nav>
 
-    <header class="w-screen md:py-14 md:px-60 md:bg-fotoBanner bg-no-repeat bg-cover">
+    <header class=" lg:py-14 lg:px-60 lg:bg-fotoBanner bg-no-repeat bg-cover bg-center">
         <article class=" bg-white max-w-[595px]">
             <nav class=" py-4 md:py-8 bg-[#F1F5F9]  ">
                 <ul class=" flex justify-around md:py-9">
@@ -78,26 +78,112 @@
         </article>
     </header>
 
-    <section class=" py-7 px-5 space-y-6 bg-fotoCidade bg-no-repeat bg-cover bg-origin-border md:px-60">
+    <section class=" py-7 px-5 lg:py-14 space-y-6 bg-fotoCidade bg-no-repeat bg-cover bg-center bg-origin-border lg:px-60">
         <h2 class=" text-3xl font-bold">A plataforma Uber que você conhece, reinventada para empresas</h2>
         
         <p class=" text-sm">Uma plataforma simples para empresas de todos os portes administrarem suas viagens e refeições globais e entregas locais.</p>
         <button class=" bg-black  text-white  py-3 px-8 rounded-lg">Começar</button>
     </section>
 
-    <section>
-        <h2>Preocupados com a sua segurança, onde quer que você vá</h2>
-        <img src="./assets/carros.png" alt="">
-        <h3>Sua segurança é a nossa prioridade</h3>
-        <h4>Com todos os recursos de segurança e todas as normas do nosso Código da Comunidade Uber, estamos comprometidos em ajudar a criar um ambiente seguro para nossos usuários.</h4>
-        <img src="./assets/motorista.png" alt="">
-        <h2>Colocamos mais de 10.000 cidades em movimento</h2>
-        <h4>O app está disponível em milhares de cidades no mundo todo para que você possa solicitar uma viagem mesmo longe de casa.</h4>
+    <section class=" px-4 lg:px-60  mt-20 mb-16">
+        <h2 class=" max-w-[700px] font-bold text-4xl mb-5">Preocupados com a sua segurança, onde quer que você vá</h2>
+        <div class=" grid lg:grid-cols-2 gap-1 md:gap-9 mb-16">
+            <div class=" space-y-4 lg:space-y-6">
+                <img class="w-full" src="./assets/carros.png" alt="">
+                <h3 class=" md:text-2xl font-medium ">Sua segurança é a nossa prioridade</h3>
+                <h4>Com todos os recursos de segurança e todas as normas do nosso Código da Comunidade Uber, estamos comprometidos em ajudar a criar um ambiente seguro para nossos usuários.</h4>
+            </div>
+            <div class=" space-y-4 lg:space-y-6">
+                <img class="w-full" src="./assets/motorista.png" alt="">
+                <h3 class=" md:text-2xl font-medium ">Colocamos mais de 10.000 cidades em movimento</h3>
+                <h4>O app está disponível em milhares de cidades no mundo todo para que você possa solicitar uma viagem mesmo longe de casa.</h4>
+            </div>
+        </div>
+
+        <ul class=" flex flex-col gap-20 lg:flex-row justify-between ">
+            <li class=" space-y-6">
+                <img src="./assets/pessoas.svg" alt="">
+                <h5 class=" font-bold">Quem somos</h5>
+                <p>Find out how we started, what drives us, and how we’re reimagining how the world moves.</p>
+                <a class="flex flex-col text-slate-500 after:bg-slate-300 after:w-4 after:h-1 after:flex" href="">Saiba mais sobre a Uber</a>
+            </li>
+            <li class=" space-y-6">
+                <img src="./assets/fichario.svg" alt="">
+                <h5 class=" font-bold">Newsroom</h5>
+                <p>Confira as notícias mais recentes sobre lançamentos, iniciativas e parcerias.</p>
+                <a class="flex flex-col text-slate-500 after:bg-slate-300 after:w-4 after:h-1 after:flex" href="">Acesse o Newsroom</a>
+                
+            </li>
+            
+            <li class=" space-y-6">
+                <img src="./assets/casa.svg" alt="">
+                <h5 class=" font-bold">Cidadania global</h5>
+                <p>Leia sobre nosso compromisso de gerar um impacto positivo nas cidades que atendemos.</p>
+                <a class="flex flex-col text-slate-500 after:bg-slate-300 after:w-4 after:h-1 after:flex" href="">See our partnerships</a>
+            </li>
+
+        </ul>
     </section>
 
-    <section>
-        
+    <section class=" px-4 py-9  lg:px-60 lg:py-20 bg-slate-200">
+        <h2 class=" mb-9 text-5xl font-bold">É mais fácil pelo app</h2>
+        <div class=" flex flex-col Notebook:flex-row gap-4">
+            <article class=" flex flex-1 items-center justify-between bg-white px-5 py-11 ">
+                <div class=" flex items-center gap-2">
+                    <img class="hidden Notebook:flex" src="./assets/qrUber.svg" alt="">
+                    <div >
+                        <h3 class=" text-2xl font-bold mb-2">Baixe o app da Uber</h3>
+                        <p>Leia o código QR para baixar o app</p>
+                    </div>
+                </div>
+                <img src="./assets/seta.svg" alt="">
+            </article>
+            
+            <article class=" flex flex-1 items-center justify-between bg-white px-5 py-11 ">
+                <div class=" flex items-center gap-2">
+                    <img class="hidden Notebook:flex" src="./assets/qruberApp.svg" alt="">
+                    <div>
+                        <h3 class=" text-2xl font-bold mb-2">Baixe o app de parceiro</h3>
+                        <p>Leia o código QR para baixar o app</p>
+                    </div>
+                </div>
+                <img src="./assets/seta.svg" alt="">
+            </article>
+        </div>
+
     </section>
+
+    <article class=" flex flex-col px-4 md:flex-row gap-8 py-20 lg:px-60 ">
+        <a class="flex flex-1 justify-between items-center text-5xl font-bold " href="">
+            <span class=" max-w-96">Cadastre-se para dirigir</span>
+            <img src="./assets/seta.svg" alt="">
+        </a>
+        <a class=" flex flex-1 justify-between items-center text-5xl font-bold " href="">
+            <span class=" max-w-96" >Cadastre-se para viajar</span>
+            <img src="./assets/seta.svg" alt="">
+        </a>
+        
+    </article>
+
+    <footer class=" flex flex-col flex-1 py-5 gap-6 justify-center items-center bg-black ">
+        <a class="block" href="">
+            <img src="./assets/logo.svg" alt="">
+        </a>
+        <span class=" text-white">@2023 Sujeito Programador</span>
+        <ul class="flex flex-1 gap-4 ">
+            <li>
+                <a class="block" href="">
+                    <img src="./assets/botaoApple.svg" alt="">
+                </a>
+            </li>
+            
+            <li>
+                <a href="">
+                    <img src="./assets/botaoAndroid.svg" alt="">
+                </a>
+            </li>
+        </ul>
+    </footer>
 
 
     <script src="./script.js"></script>
